@@ -1,7 +1,7 @@
 "use client"
 
 import { scrapeAndStoreProduct } from "@/lib/actions";
-import { useState } from "react"
+import { FormEvent, useState } from "react"
 
 const Searchbar = () => {
     const [searchPrompt, setSearchPrompt] = useState('');
